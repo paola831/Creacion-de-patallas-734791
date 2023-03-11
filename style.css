@@ -1,0 +1,51 @@
+.container {
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="correo"] ,
+input[type="number"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	border: none;
+}
+
+button[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+body {
+    background-color: #fde7ed;
+  
+  }
+  

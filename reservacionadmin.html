@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vista administrativa</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<h1># de reservacion 736452</h1>
+	<form>
+		<div class="formulario"></div>
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre" required>
+		<label for="apellido">Apellido:</label>
+		<input type="text" id="apellido" name="apellido" required>
+		<label for="telefono">Teléfono:</label>
+		<input type="tel" id="telefono" name="telefono" required>
+		<label for="correo">Correo:</label>
+		<input type="email" id="correo" name="correo" required>
+		<label for="personas">Número de personas:</label>
+		<input type="number" id="personas" name="personas" min="1" required>
+		<label for= "comentarios">Comentarios:</label>
+		<textarea id="info" name="info" rows="4" cols="50" readonly></textarea>
+		<input type="submit" value="Reservar">
+	</div>
+	</form>
+	<div class="circulos">
+		<div class="columna">
+			<div class="circulo verde" data-info="Información del círculo verde"></div>
+			<div class="circulo rojo" data-info="Información del círculo rojo"></div>
+			<div class="circulo azul" data-info="Información del círculo azul"></div>
+		</div>
+		<div class="columna">
+			<div class="circulo amarillo" data-info="Información del círculo amarillo"></div>
+			<div class="circulo morado" data-info="Información del círculo morado"></div>
+			<div class="circulo rosa" data-info="Información del círculo rosa"></div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

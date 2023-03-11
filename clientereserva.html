@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reservacion en el Restaurante Paola's</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Reservaciones en el Restaurante Paola's</h1>
+		<form id="reservacion-form" method="POST">
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre" required>
+			<label for="apellido">Apellido:</label>
+			<input type="text" id="apellido" name="apellido" required>
+			<label for="telefono">Teléfono:</label>
+			<input type="tel" id="telefono" name="telefono" required>
+			<label for="correo">Email:</label>
+			<input type="correo" id="correo" name="correo" required>
+			<label for="mesa">Número de Personas:</label>
+			<input type="number" id="personas" name="personas" min="1" required>
+			<label for="horario">¿Que horario le gustaria?</label>
+			<label>
+				<input type="radio" name="horario" value="7-8">
+				7:00pm - 8:00pm
+			</label>
+			<label>
+				<input type="radio" name="horario" value="8-9">
+				8:00pm - 9:00pm
+			</label>
+			<label>
+				<input type="radio" name="horario" value="9-10">
+				9:00pm - 10:00pm
+			</label>
+			<button type="submit">Reservar</button>
+		</form>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>
